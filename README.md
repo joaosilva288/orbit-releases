@@ -8,7 +8,9 @@ Repositório **privado** com **apenas os instaladores** do Orbit (sistema intern
 3. Como o instalador ainda não tem assinatura digital da empresa, o Windows pode mostrar **"O Windows protegeu o computador"**: clique em **Mais informações** → **Executar assim mesmo**. Isso acontece só na primeira instalação.
 
 ## Atualizar
-Por enquanto a atualização é manual: baixe o `OrbitApp-win-Setup.exe` da versão nova e execute. A atualização automática volta quando houver um local de distribuição interno da empresa.
+O Orbit verifica sozinho se há versão nova (ao abrir e a cada 6 horas). Quando houver, aparece a faixa **"Nova versão do Orbit disponível"** no topo: clique em **Atualizar agora**. Nada é instalado sem o seu clique.
+
+> Quem instalou a **rc.18** precisa instalar a **rc.19** uma vez à mão (baixar o Setup e executar). Depois disso, as atualizações chegam sozinhas.
 
 ## Seus dados
 - Ficam só no seu computador, em `%LocalAppData%\Orbit` — separados do programa.
